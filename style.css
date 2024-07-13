@@ -1,0 +1,93 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* heading ke liye */
+h1{
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+  
+
+}
+
+/*choices ke liye */
+
+.choice{
+height: 165px;
+width: 165px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+/* give height and width to image2*/
+
+img{
+    height: 150px;
+width: 150px;
+    border-radius: 50%;
+}
+
+
+
+/*add hover on the images */
+
+.choice:hover{
+   /* opacity: 0.9;    opacity used for view  */  
+    cursor: pointer;
+    background-color: #081b31;
+}
+
+
+/*Take choices to arrange images*/
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+
+
+/*  score-board*/
+
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+
+
+/*user-score and comp-score ko individual fontsize dena hai*/
+
+
+#user-score,#comp-score{
+    font-size: 4rem;
+}
+
+
+/*msg paragraph ko design karenge*/
+
+#msg{
+    background-color: #081b31;
+    color: white;
+    font-size: 2rem;
+    margin-top: 5rem;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 1rem;
+}
